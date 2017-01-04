@@ -11,8 +11,20 @@
 |
 */
 
-Route::get('admin', function() {
-	return view('admin');
+Route::get('quem-somos', function() {
+	return view('quem-somos');
+});
+
+Route::get('servicos', function() {
+	return view('servicos');
+});
+
+Route::get('produtos', function() {
+	return view('produtos');
+});
+
+Route::get('contato', function() {
+	return view('contato');
 });
 
 Route::resource('admin/produtos', 'ProdutoController');
@@ -20,3 +32,7 @@ Route::resource('admin/produtos', 'ProdutoController');
 Route::get('/', function () {
     return view('index');
 });
+
+Auth::routes();
+
+Route::get('/admin', 'AdminController@index');

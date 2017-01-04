@@ -20,54 +20,23 @@
 
     <div class="intro">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <a href="#" class="card">
-                        Telecomunicações
+            <div class="row servicos">
+                <div class="col-xs-12 col-md-4">
+                    <a href="#" class="card telecom">
+                        <span>Telecomunicações</span>
                     </a>
                 </div>
-                <div class="col-md-4">
-                    <a href="#" class="card">
-                        Redes
+                <div class="col-xs-12 col-md-4">
+                    <a href="#" class="card redes">
+                        <span>Redes</span>
                     </a>
                 </div>
-                <div class="col-md-4">
-                   <a href="#" class="card">
-                        Segurança Eletrônica
+                <div class="col-xs-12 col-md-4">
+                   <a href="#" class="card seguranca">
+                        <span>Segurança Eletrônica</span>
                    </a>
                 </div>
             </div>
         </div>
     </div>
-
-    <footer>
-        <div class="container">
-            <p>&copy; KW Soluções LTDA. Todos os direitos reservados. 2016</p>
-            <ul class="list-inline">
-                <li>
-                    <a href="#">Quem somos</a>
-                </li>
-                <li>
-                    <a href="#">Serviços</a>
-                </li>
-                <li>
-                    <a href="#">Produtos</a>
-                </li>
-                <li>
-                    <a href="#">Contato</a>
-                </li>
-            </ul>
-            <ul class="list-inline">
-                <li>
-                    <a href="#">Telecom</a>
-                </li>
-                <li>
-                    <a href="#">Redes</a>
-                </li>
-                <li>
-                    <a href="#">Segurança Eletrônica</a>
-                </li>
-            </ul>
-        </div>
-    </footer>
 @endsection
